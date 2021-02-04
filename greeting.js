@@ -24,7 +24,7 @@ function asfForName(){
 function paintGreeting(text){
     form.classList.remove(SHWOING_CN);
     greeting.classList.add(SHWOING_CN);
-    greeting.innerText = `Hello ${text}`;
+    greeting.innerText = `Hello, ${text}`;
 }
 
 
